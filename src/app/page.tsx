@@ -21,7 +21,7 @@ const CountContext2 = createContext<{
   setNumber: ReturnType<typeof useState<number>>[1];
 }>(null);
 
-export function App() {
+function App() {
   return (
     <div className="App">
       <CounterWrapper1 />
